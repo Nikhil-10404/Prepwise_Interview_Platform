@@ -309,7 +309,7 @@ export const generator: CreateWorkflowDTO={
           "y": -205.05524821170548
         }
       },
-      "prompt": "Say To begin your mock interview, could you please tell me what job role you're preparing for?\n\nFor example, you might say:\n\n“Frontend Developer”\n\n“Backend Engineer”\n\n“Full Stack Developer”\n\n“Mobile App Developer”\n\n“Data Scientist”\n\nYou can mention any role you're aiming for, and I’ll tailor the interview accordingly.\n\n",
+      "prompt": "Say To begin your mock interview, could you please tell me what job role you're preparing for?\n\nYou can mention any role you're aiming for, and I’ll tailor the interview accordingly.\n\n",
       "model": {
         "model": "gpt-4o",
         "provider": "openai",
@@ -365,7 +365,7 @@ export const generator: CreateWorkflowDTO={
           "y": 529.9447517882945
         }
       },
-      "prompt": "Say Great! Now, what difficulty level would you like this mock interview to be?\n\nYou can choose from:\n\nEasy – basic questions to warm up or get started\n\nMedium – standard-level interview questions\n\nHard – tough, in-depth questions like you'd face in top company interviews\n\nJust say “easy,” “medium,” or “hard” — whichever you're comfortable with.",
+      "prompt": "Say Great! Now, what difficulty level would you like this mock interview to be?\n\nYou can choose from:\n\nJust say “easy,” “medium,” or “hard” — whichever you're comfortable with.",
       "model": {
         "model": "gpt-4o",
         "provider": "openai",
@@ -393,7 +393,7 @@ export const generator: CreateWorkflowDTO={
           "y": 964.4930732038297
         }
       },
-      "prompt": "Say Now, to tailor this interview to your experience, could you please tell me which tech stack you'd like to be interviewed on?\nFor example, you might say:\n\n“React and Node.js”\n\n“MERN stack”\n\n“Java and Spring Boot”\n\n“Flutter with Firebase”\n\nIf you’re not sure what a tech stack means — it just refers to the set of technologies you’re using to build applications. You can name any frameworks, languages, or tools you're most comfortable with.\n\n",
+      "prompt": "Say Now, to tailor this interview to your experience, could you please tell me which tech stack you'd like to be interviewed on?\nnIf you’re not sure what a tech stack means — it just refers to the set of technologies you’re using to build applications. You can name any frameworks, languages, or tools you're most comfortable with.\n\n",
       "model": {
         "model": "gpt-4o",
         "provider": "openai",
